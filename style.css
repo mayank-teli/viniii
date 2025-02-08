@@ -1,0 +1,155 @@
+   /* {
+    margin: 0%;
+    padding: 0%;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+body{
+
+    background-color:palevioletred;
+    /
+}
+
+.page{
+    width:100%;
+    height: 100vh;
+   
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.page1{
+    width: 60vw;
+    height: 60vh;
+    background-color: aqua;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 20px;
+}
+
+.page1 .pg1-1{
+    width: 100%;
+    height: 50%;
+
+    text-align: center;
+ 
+ 
+}
+#main-text{
+    font-size: 3vw;
+    font-weight: bolder;
+    text-transform: uppercase;
+
+}
+
+.page1 #yes-1{
+    margin-top: 50px;
+    margin-right: 50px;
+    width: 150px;
+    height: 50px;
+    font-size: 30px;
+    font-weight: bolder;
+    background-color: rgb(59, 160, 74);
+    color: white;
+    border: 0px solid ;
+    border-radius: 20px;
+}
+
+
+.page1 #no-1{
+    margin-top: 50px;
+    width: 150px;
+    height: 50px;
+    font-size: 30px;
+    font-weight: bolder;
+    background-color: rgb(241, 70, 70);
+    color: white;
+    border: 0px solid ;
+    border-radius: 20px;
+} */
+
+
+
+ body {
+    background-color: #FFC0CB; /* Baby Pink */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    flex-direction: column;
+    text-align: center;
+    font-family: Arial, sans-serif;
+}
+
+.container {
+    max-width: 90%;
+}
+
+h1 {
+    font-size: 24px;
+    margin-bottom: 20px;
+}
+
+.buttons {
+    display: flex;
+    gap: 20px;
+}
+
+button {
+   
+     font-size: 16px;
+    padding: 10px 20px;
+    border: none;
+    cursor: pointer;
+    transition: all 0.3s ease;
+    
+}
+
+#yesBtn {
+    background-color: #FF69B4; /* Pink */
+    color: white;
+}
+
+#noBtn {
+    background-color: #f44336; /* Red */
+    color: white;
+}
+
+
+
+.photos {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 10px;
+    margin-top: 20px;
+}
+
+.photos img {
+    width: 150px;
+    height: 150px;
+    object-fit: cover;
+    border-radius: 10px;
+}
+
+
+#photobut{
+    background-color: palevioletred;
+    border: 0px solid black;
+    color: white;
+    border-radius: 10px;
+}
+
+#Submitbut{
+    background-color: palevioletred;
+    color: white;
+    border-radius: 10px;
+}
+
+#password{
+    width: 200px;
+    height: 30px;
+    border: 3px solid palevioletred;
+    border-radius: 10px;
+}
